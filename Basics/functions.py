@@ -8,7 +8,7 @@ print(avg)
 def sum(a, b):
     '''
     this is a docstring
-    adds two numbers
+    adds two numbers    
     '''
     global c
     c = a + b
