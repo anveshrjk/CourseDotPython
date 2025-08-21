@@ -14,3 +14,4 @@ expences = [('Dinner', 80), ('Car repair', 120)]
 
 sum  = reduce(lambda a, b : a[1] + b[1], expences)
 print(sum)
+print(reduce(12,3))

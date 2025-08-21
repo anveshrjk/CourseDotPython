@@ -2,5 +2,5 @@
 
 while(data := input("enter a value: ")):
     print(data)
-    if data == 'a':
+    if data == ' a':
         break
