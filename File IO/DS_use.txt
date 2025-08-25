@@ -1,0 +1,17 @@
+# WHEN TO USE EACH DATA STRUCTURE?
+
+1. List
+~ Ordered, Mutable
+~ Storing sequences,dynamic data
+
+2. Tuple
+~ Ordered, Immutable
+~ Fixed collections, dictionary keys
+
+3. Set
+~ Unordered, Unique
+~ Removing duplicates, Set operations
+
+4. Dictionary 
+~ key-value pairs
+~ fast look-ups, structured data 
