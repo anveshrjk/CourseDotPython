@@ -12,3 +12,13 @@ print(mixed[3])
 marks.extend(extra_marks)
 print(marks)
 mixed.pop()
+
+# palindrome
+l1 = [1,2,3,2,1]
+l2 = [1,2,3]
+rev_l1 = l1.copy()
+rev_l1.reverse()
+if rev_l1 == l1:
+    print("palindrome")
+else:
+    print("not palindrome")

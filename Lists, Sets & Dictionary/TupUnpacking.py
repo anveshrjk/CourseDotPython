@@ -8,3 +8,7 @@ print(a, b, c)
 t = (36, 28, 1, 38, 39 , 38)
 print(t.count(38))
 print(t.index(38)) 
+
+# grade A sort
+grades = ("C", "A", "B", "A", "D")
+print(grades.count("A"))

@@ -48,3 +48,17 @@ class State(Enum):
 print(State.ACTIVE.value)
 print(State(0))
 print(len(list(State)))
+
+# string slicing
+name = "inteee"
+print(name[0:4])
+print(name[-6:-2])
+
+# string functions
+'''
+name.endsWith("te") --> boolean type return
+name.capitalize() --> 1st char
+name.replace(old, new)
+name.find(word) --> first appearance index
+name.count("e") 
+'''
