@@ -10,16 +10,16 @@ args = parser.parse_args()
 
 # print(args)
 
-if(args.operation == "add"):
+if args.operation == "add":
     print(f"The result is {args.num1 + args.num2}")
 
-elif(args.operation == "sub"):
+elif args.operation == "sub":
     print(f"The result is {args.num1 - args.num2}")
 
-elif(args.operation == "mul"):
+elif args.operation == "mul":
     print(f"The result is {args.num1 * args.num2}")
 
-elif(args.operation == "div"):
+elif args.operation == "div":
     print(f"The result is {args.num1 / args.num2}")
 
 else:

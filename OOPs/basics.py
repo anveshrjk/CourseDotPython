@@ -3,8 +3,13 @@ class Employee:
 
     def __init__(self, salary, name, bond):
         self.salary = salary
-        self.name = name 
+        self.name = name
         self.bond = bond
+
+        '''method automatically call/invoke, initialize class member variables.
+        __init__ behave like the constructor
+        '''
+
 
     def getSalary(self): # self is a way to reference the object of a class
         return self.salary

@@ -18,7 +18,5 @@ class Student:
         def show(self):
             print(self.brand, self.cpu, self.ram)
 
-
-
 s1 = Student("inte", 39)
 s1.show()
