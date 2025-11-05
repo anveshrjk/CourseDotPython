@@ -1,3 +1,3 @@
-import mysql_connect
-
-mydb = conne
+# import mysql_connect
+#
+# mydb = conne
