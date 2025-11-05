@@ -5,7 +5,10 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return render_template("home.html")
-# @app.post('/ght')
+
+# @app.get('/ght')
+# def hi():
+#     return {"message":"hello"}
 
 
 @app.route('/services')

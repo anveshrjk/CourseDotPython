@@ -11,3 +11,9 @@ cur.execute("""
 res = cur.execute("SELECT score FROM movie")
 res.fetchall()
 con.commit()
+
+'''
+NESTED QUERY:
+
+sqlite> SELECT * FROM shows WHERE id IN (SELECT show_id FROM ratings WHERE rating >= 6.0) LIMIT 10;
+'''
