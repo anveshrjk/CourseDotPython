@@ -10,7 +10,7 @@ app = ctk.CTk()
 app.title("4-7-8 Breathing App")
 app.iconbitmap("icon.ico")
 app.geometry("480x420")
-app.resizable(False, False)
+app.resizable(True, True)
 
 # --- Global state ---
 is_running = False
@@ -25,9 +25,9 @@ title_label.pack(pady=(25, 10))
 
 instruction_label = ctk.CTkLabel(
     app, text="Press Start to Begin",
-    font=("Poppins", 20), text_color="#EAEAEA"
+    font=("Poppins", 20), text_color="#EAEAEA",
 )
-
+# instruction_label.grid(row=0, column=0, padx=20, pady=20, sticky="ns")
 instruction_label.pack(pady=10)
 
 count_label = ctk.CTkLabel(
@@ -45,7 +45,7 @@ cycle_label.pack(pady=(10, 30))
 
 # Button frame
 button_frame = ctk.CTkFrame(app, corner_radius=15)
-button_frame.pack(pady=10)
+button_frame.grid(row=0, column=0, padx=20, pady=20, sticky="news")
 
 # --- Functions ---
 def breathing_sequence():
@@ -109,7 +109,7 @@ start_button = ctk.CTkButton(
     font=("Poppins", 16, "bold"), width=120, height=40, corner_radius=12
 )
 
-start_button.grid(row=0, column=0, padx=15, pady=10)
+start_button.grid(row=0, column=0, padx=15, pady=10, sticky="news")
 
 reset_button = ctk.CTkButton(
     button_frame, text="Reset",
@@ -118,7 +118,7 @@ reset_button = ctk.CTkButton(
     fg_color="#333333", hover_color="#555555",
     corner_radius=12, state="disabled"
 )
-reset_button.grid(row=0, column=1, padx=15, pady=10)
+reset_button.grid(row=0, column=1, padx=15, pady=10, sticky="news")
 
 # Footer
 footer_label = ctk.CTkLabel(
