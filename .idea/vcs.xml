@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/PythonTnP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-databases-main/welcome-to-docker" vcs="Git" />
   </component>
 </project>

@@ -32,3 +32,4 @@ print(name)
 print(name[0],name[1],name[-2],name[-1],sep="")
 print(name[0:-1])
 print(name[0:10:2]) #skips n-1 characters
+
